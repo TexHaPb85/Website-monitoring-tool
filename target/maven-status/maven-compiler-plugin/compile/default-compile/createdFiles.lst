@@ -1,0 +1,11 @@
+com\providesupportLLC\model\MonitoringSource.class
+com\providesupportLLC\services\WebRequestService.class
+com\providesupportLLC\model\enums\URLState.class
+com\providesupportLLC\repositories\SourceRepository.class
+com\providesupportLLC\controllers\MainServlet.class
+com\providesupportLLC\model\MonitoringThreadResponse.class
+com\providesupportLLC\utils\NumericUtils.class
+com\providesupportLLC\model\enums\Values.class
+com\providesupportLLC\repositories\SourceRepositoryJDBC.class
+com\providesupportLLC\repositories\SourceRepositoryEmbeddedList.class
+com\providesupportLLC\utils\DBConnectionFactory.class

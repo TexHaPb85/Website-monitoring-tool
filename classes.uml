@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="880.6396551724138" y="972.0">com.providesupportLLC.repositories.SourceRepositoryEmbeddedList</node>
+    <node x="676.8400862068964" y="1573.0">com.providesupportLLC.controllers.MainServlet</node>
+    <node x="859.8547413793103" y="99.5">com.providesupportLLC.utils.NumericUtils</node>
+    <node x="119.97974137931033" y="717.0">com.providesupportLLC.model.enums.URLState</node>
+    <node x="0.0" y="906.0">com.providesupportLLC.model.MonitoringThreadResponse</node>
+    <node x="383.01465517241377" y="938.5">com.providesupportLLC.repositories.SourceRepositoryJDBC</node>
+    <node x="321.93749999999994" y="750.0">com.providesupportLLC.utils.DBConnectionFactory</node>
+    <node x="665.1047413793103" y="321.0">com.providesupportLLC.model.MonitoringSource</node>
+    <node x="39.229741379310326" y="0.0">com.providesupportLLC.model.enums.Values</node>
+    <node x="375.93749999999994" y="1250.0">com.providesupportLLC.services.WebRequestService</node>
+    <node x="564.6396551724138" y="717.0">com.providesupportLLC.repositories.SourceRepository</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.providesupportLLC.model.MonitoringThreadResponse" target="com.providesupportLLC.model.enums.URLState">
+      <point x="71.60000000000002" y="-147.0" />
+      <point x="250.60000000000002" y="881.0" />
+      <point x="221.97974137931033" y="881.0" />
+      <point x="34.0" y="69.5" />
+    </edge>
+    <edge source="com.providesupportLLC.services.WebRequestService" target="com.providesupportLLC.model.MonitoringThreadResponse">
+      <point x="-64.39999999999998" y="-136.5" />
+      <point x="472.53749999999997" y="1220.0" />
+      <point x="268.5" y="1220.0" />
+      <point x="89.5" y="147.0" />
+    </edge>
+    <edge source="com.providesupportLLC.model.MonitoringThreadResponse" target="com.providesupportLLC.model.MonitoringSource">
+      <point x="143.20000000000005" y="-147.0" />
+      <point x="322.20000000000005" y="881.0" />
+      <point x="281.7547413793103" y="881.0" />
+      <point x="281.7547413793103" y="667.0" />
+      <point x="720.6047413793103" y="667.0" />
+      <point x="-148.0" y="158.0" />
+    </edge>
+    <edge source="com.providesupportLLC.repositories.SourceRepositoryEmbeddedList" target="com.providesupportLLC.repositories.SourceRepository">
+      <point x="-110.625" y="-81.0" />
+      <point x="917.5146551724138" y="881.0" />
+      <point x="810.472988505747" y="881.0" />
+      <point x="98.33333333333331" y="69.5" />
+    </edge>
+    <edge source="com.providesupportLLC.repositories.SourceRepository" target="com.providesupportLLC.model.MonitoringSource">
+      <point x="0.0" y="-69.5" />
+      <point x="712.1396551724138" y="697.0" />
+      <point x="831.6047413793103" y="697.0" />
+      <point x="-37.0" y="158.0" />
+    </edge>
+    <edge source="com.providesupportLLC.controllers.MainServlet" target="com.providesupportLLC.model.MonitoringSource">
+      <point x="47.75" y="-135.5" />
+      <point x="915.5900862068964" y="1543.0" />
+      <point x="1186.1396551724138" y="1543.0" />
+      <point x="1186.1396551724138" y="667.0" />
+      <point x="1016.6047413793103" y="667.0" />
+      <point x="148.0" y="158.0" />
+    </edge>
+    <edge source="com.providesupportLLC.services.WebRequestService" target="com.providesupportLLC.repositories.SourceRepositoryJDBC">
+      <point x="0.0" y="-136.5" />
+      <point x="536.9375" y="1230.0" />
+      <point x="530.5146551724138" y="1230.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="com.providesupportLLC.repositories.SourceRepositoryJDBC" target="com.providesupportLLC.model.MonitoringSource">
+      <point x="-36.875" y="-114.5" />
+      <point x="493.63965517241377" y="881.0" />
+      <point x="531.4375" y="881.0" />
+      <point x="531.4375" y="677.0" />
+      <point x="757.6047413793103" y="677.0" />
+      <point x="-111.0" y="158.0" />
+    </edge>
+    <edge source="com.providesupportLLC.controllers.MainServlet" target="com.providesupportLLC.services.WebRequestService">
+      <point x="-143.25" y="-135.5" />
+      <point x="724.5900862068964" y="1553.0" />
+      <point x="456.43749999999994" y="1553.0" />
+      <point x="-80.5" y="136.5" />
+    </edge>
+    <edge source="com.providesupportLLC.repositories.SourceRepositoryJDBC" target="com.providesupportLLC.repositories.SourceRepository">
+      <point x="110.625" y="-114.5" />
+      <point x="641.1396551724138" y="881.0" />
+      <point x="613.8063218390804" y="881.0" />
+      <point x="-98.33333333333331" y="69.5" />
+    </edge>
+    <edge source="com.providesupportLLC.model.MonitoringThreadResponse" target="com.providesupportLLC.model.enums.Values">
+      <point x="-143.20000000000005" y="-147.0" />
+      <point x="35.799999999999955" y="881.0" />
+      <point x="98.47974137931033" y="881.0" />
+      <point x="-59.25" y="135.5" />
+    </edge>
+    <edge source="com.providesupportLLC.services.WebRequestService" target="com.providesupportLLC.model.MonitoringSource">
+      <point x="128.79999999999995" y="-136.5" />
+      <point x="665.7375" y="1230.0" />
+      <point x="870.1396551724138" y="1230.0" />
+      <point x="870.1396551724138" y="697.0" />
+      <point x="868.6047413793103" y="697.0" />
+      <point x="0.0" y="158.0" />
+    </edge>
+    <edge source="com.providesupportLLC.services.WebRequestService" target="com.providesupportLLC.repositories.SourceRepository">
+      <point x="64.39999999999998" y="-136.5" />
+      <point x="601.3374999999999" y="1220.0" />
+      <point x="712.1396551724138" y="1220.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="com.providesupportLLC.model.MonitoringSource" target="com.providesupportLLC.utils.NumericUtils">
+      <point x="101.75" y="-158.0" />
+      <point x="0.0" y="36.0" />
+    </edge>
+    <edge source="com.providesupportLLC.model.MonitoringSource" target="com.providesupportLLC.model.enums.Values">
+      <point x="-101.75" y="-158.0" />
+      <point x="766.8547413793103" y="296.0" />
+      <point x="216.97974137931033" y="296.0" />
+      <point x="59.25" y="135.5" />
+    </edge>
+    <edge source="com.providesupportLLC.repositories.SourceRepositoryEmbeddedList" target="com.providesupportLLC.model.MonitoringSource">
+      <point x="-36.875" y="-81.0" />
+      <point x="991.2646551724138" y="881.0" />
+      <point x="1027.7624999999998" y="881.0" />
+      <point x="1027.7624999999998" y="697.0" />
+      <point x="905.6047413793103" y="697.0" />
+      <point x="37.0" y="158.0" />
+    </edge>
+    <edge source="com.providesupportLLC.repositories.SourceRepositoryJDBC" target="com.providesupportLLC.utils.DBConnectionFactory">
+      <point x="-110.625" y="-114.5" />
+      <point x="419.88965517241377" y="881.0" />
+      <point x="421.43749999999994" y="881.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="627.9999999999999" y="299.33333333333326" />
+  <SelectedNodes>
+    <node>com.providesupportLLC.repositories.SourceRepositoryEmbeddedList</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
